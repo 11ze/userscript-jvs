@@ -7,8 +7,8 @@
 // @grant       GM_addStyle
 // @license     MIT
 // @author      11ze
-// @version     0.3.0
-// @description 2025-07-16
+// @version     0.3.1
+// @description 2025-07-17
 // ==/UserScript==
 
 // 检查是否包含 jvs-ui 的 link 标签
@@ -1987,7 +1987,7 @@ const css = `
   .content-box > .used-logic,
   .content-box > .permission-box,
   .content-box > .permission-page {
-    width: 100% !important;
+    width: 99% !important;
   }
 
   /* 逻辑设计，设计名称输入框 */

@@ -9,6 +9,8 @@
 // @author      11ze
 // @version     0.3.1
 // @description 2025-07-17
+// @downloadURL https://fastly.jsdelivr.net/gh/11ze/userscript-jvs@main/jvs.user.js
+// @updateURL   https://fastly.jsdelivr.net/gh/11ze/userscript-jvs@main/jvs.user.js
 // ==/UserScript==
 
 // 检查是否包含 jvs-ui 的 link 标签

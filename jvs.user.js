@@ -7,8 +7,8 @@
 // @grant       GM_addStyle
 // @license     MIT
 // @author      11ze
-// @version     0.3.1
-// @description 2025-07-17
+// @version     0.3.2
+// @description 2025-09-09
 // @downloadURL https://fastly.jsdelivr.net/gh/11ze/userscript-jvs@main/jvs.user.js
 // @updateURL   https://fastly.jsdelivr.net/gh/11ze/userscript-jvs@main/jvs.user.js
 // ==/UserScript==
@@ -1757,8 +1757,8 @@ window.onload = function () {
           <td> ${appName} &nbsp; </td>
           <td style="color: ${currentType.color}"> ${currentType.shortname} &nbsp; </td>
           <td> ${designName} &nbsp; </td>
-          <td style="color: ${logFieldColor}"> ${oneLog.type} &nbsp; </td>
           <td> ${datetime} &nbsp; </td>
+          <td style="color: ${logFieldColor}"> ${oneLog.type} &nbsp; </td>
           <td> <a href="${oneLog.url}" target="_blank">设计</a> &nbsp; </td>
         </tr>
       `);
@@ -1773,8 +1773,8 @@ window.onload = function () {
           <th> 应用 &nbsp;</th>
           <th> 设计 &nbsp;</th>
           <th> 名称 &nbsp;</th>
-          <th> 类型 &nbsp;</th>
           <th> 时间 &nbsp;</th>
+          <th> 类型 &nbsp;</th>
           <th> 操作 &nbsp;</th>
         </tr>
       </thead>

@@ -7,8 +7,8 @@
 // @grant       GM_addStyle
 // @license     MIT
 // @author      11ze
-// @version     0.3.3
-// @description 2025-09-12
+// @version     0.3.4
+// @description 2025-09-24
 // @downloadURL https://fastly.jsdelivr.net/gh/11ze/userscript-jvs@main/jvs.user.js
 // @updateURL   https://fastly.jsdelivr.net/gh/11ze/userscript-jvs@main/jvs.user.js
 // ==/UserScript==
@@ -1954,11 +1954,6 @@ const css = `
     }
   }
 
-  /* 新版应用中心，移除每个分类末尾的透明方块（影响点击） */
-  #app > div > div > div.jvs-layout.jvs-layout-tempOpen > div.template-content-box > div > div.el-col.el-col-10.el-col-md-6.el-col-lg-18.el-col-xl-3 > div > div:nth-child(1) > div:nth-child(3) > div:nth-child(3) > img {
-    display: none !important;
-  }
-
   /* 放大公式 icon，原本 16px */
   .add-formula-svg {
     width: 22px !important;
@@ -2076,6 +2071,11 @@ const css = `
   /* 逻辑设计左上角的逻辑列表弹窗 */
   .other-rule-list {
     width: 500px !important;
+  }
+
+  /* 应用中心， 移除每个分类末尾的透明方块（影响点击） */
+  #app > div > div > div.jvs-layout.jvs-layout-tempOpen > div.template-content-box > div > div > div > div > div > div > img {
+    display: none !important;
   }
 `;
 
